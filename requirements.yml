@@ -1,0 +1,21 @@
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.9
+  - conda
+  - mamba
+  - pip
+  - ipykernel    # To install python kernel for jupyter
+  - pandas
+  - numpy
+  - seaborn
+  - matplotlib
+  - ipywidgets
+  - ipympl       # For jupyter widget plotting
+  - pyarrow      # To read parquet format
+  - tqdm         # Progress bar
+  - opencv       # import cv2
+  - pip:
+    - decord     # video reading, more precise than opencv
+
