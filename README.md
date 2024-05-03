@@ -41,7 +41,7 @@ cd cyndibee_event_analysis
 pip install --no-build-isolation --no-deps -e .
 ```
 
-Do uninstall, run
+To uninstall, run
 ```
 pip uninstall eventbee
 ```
@@ -57,8 +57,8 @@ pip install --no-build-isolation --no-deps -e .
 
 ## Notebooks
 
-- `notebooks/event_analysis_preparation.ipynb`  prepares event dataset from beepose raw files
-- `notebooks/event_analysis_visualization.ipynb`  is the main notebook to visualize already prepared event dataset
+- [event_analysis_preparation.ipynb](notebooks/event_analysis_preparation.ipynb)  prepares event dataset from beepose raw files
+- [event_analysis_visualization.ipynb](notebooks/event_analysis_visualization.ipynb)  is the main notebook to visualize already prepared event dataset
 
 
 ### Troubleshooting
